@@ -12,11 +12,10 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digital-market.png
 name: Digital Market
-description: 'Digital Market was an enterprise-software company that built electronic-components
-  B2B commerce software, backed by Trinity Ventures. It was acquired by Agile Software and no longer
-  operates as an independent provider. It is not an API provider and publishes no live developer
-  surface, documentation, or specifications; this profile is retained in the API Evangelist network
-  as a historical portfolio record rather than an active, enrichable API.'
+description: Digital Market was an enterprise-software company that built electronic-components B2B commerce software,
+  backed by Trinity Ventures. It was acquired by Agile Software and no longer operates as an independent provider.
+  It is not an API provider and publishes no live developer surface, documentation, or specifications; this profile
+  is retained in the API Evangelist network as a historical portfolio record rather than an active, enrichable API.
 url: https://raw.githubusercontent.com/api-evangelist/digital-market/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -26,7 +25,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-21'
 tags:
 - Company
 - Enterprise Software
@@ -48,3 +47,11 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/agile-software/
+  name: Agile Software
+  x-relationship: acquisition
+  x-generated-by: oracle-family:2026-08-21
+x-parent: agile-software
+x-relationship: acquisition
