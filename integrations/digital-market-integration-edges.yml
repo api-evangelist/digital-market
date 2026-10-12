@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/digital-market/integrations
+- https://n8n.io/integrations/digital-market/
+- https://composio.dev/toolkits/digital-market
+- https://monid.ai/tools/digital-market
+checked:
+- https://composio.dev/toolkits/digital-market
+- https://monid.ai/tools/digital-market
+- https://n8n.io/integrations/digital-market/
+- https://zapier.com/apps/digital-market/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
